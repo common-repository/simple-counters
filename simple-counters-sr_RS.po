@@ -1,0 +1,987 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: simple-counters\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-12 14:22+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Anja Skrba <anjas@webhostinggeeks.com>\n"
+"Language-Team: Anja Skrba <anjas@webhostinggeeks.com>\n"
+"Language: sr_RS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;__ngettext:1,2;__ngettext_noop:1,2;_c;_n:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sc.admin.class.php:13
+#, php-format
+msgid "Welcome, <strong>%s</strong>! All Facebook settings are ok."
+msgstr "Dobrodošli, <strong>%s</strong>! Sva Facebook podešenja su u redu."
+
+#: sc.admin.class.php:15
+msgid "Hi"
+msgstr "Zdravo"
+
+#: sc.admin.class.php:17
+msgid ""
+"If it is your name, just save plugin's options again to finish process of "
+"Facebook setup. If something goes wrong, leave this page without saving, "
+"exit your Facebook account and visit this page again to finish setup process."
+msgstr ""
+"Ako je to vaše ime, samo ponovo snimite opcije dodatka, da završite proces "
+"Facebook podešavanja. Ako nešto ne bude u redu, napustite ovu stranu bez "
+"snimanja, izađite sa svog Facebook naloga i ponovo posetite ovu stranu da "
+"završite proces podešavanja."
+
+#: sc.admin.class.php:43
+msgid "Facebook"
+msgstr "Facebook"
+
+#: sc.admin.class.php:43 sc.admin.class.php:48
+msgid "Error Code"
+msgstr "Kod greške"
+
+#: sc.admin.class.php:43
+msgid "Data request to Facebook server will be run on client side."
+msgstr ""
+"Zahtev za podatke, Facebook serveru, će biti pokrenut na klijentskoj strani."
+
+#: sc.admin.class.php:48
+msgid "Twitter"
+msgstr "Twitter"
+
+#: sc.admin.class.php:48
+msgid "Data request to Twitter server will be run on client side."
+msgstr ""
+"Zahtev za podatke, Twitter serveru, će biti pokrenut na klijentskoj strani."
+
+#: sc.admin.class.php:94
+msgid "Account Settings"
+msgstr "Podešenja naloga"
+
+#: sc.admin.class.php:96
+msgid "Technical Settings"
+msgstr "Tehnička podešenja"
+
+#: sc.admin.class.php:97
+msgid "Badge Settings"
+msgstr "Podešenja značke"
+
+#: sc.admin.class.php:98
+msgid "ToolTips Settings"
+msgstr "Podešenja ToolTips -ova (kratkih opisa alata)"
+
+#: sc.admin.class.php:101
+msgid "Facebook App ID"
+msgstr "ID Facebook aplikacije"
+
+#: sc.admin.class.php:101
+msgid "This is App Id of your Facebook application."
+msgstr "Ovo je ID aplikacije, za vašu Facebook aplikaciju."
+
+#: sc.admin.class.php:101 sc.admin.class.php:102 sc.admin.class.php:103
+msgid "For more details see help (tab in right top corner of this screen)."
+msgstr ""
+"Za više detalja pogledajte pomoć (karticu u gornjem desnom uglu ovog ekrana)."
+
+#: sc.admin.class.php:102
+msgid "Facebook App Secret"
+msgstr "Tajni ključ Facebook aplikacije"
+
+#: sc.admin.class.php:102
+msgid "This is App Secret of your Facebook application."
+msgstr "Ovo je tajni ključ vaše Facebook aplikacije."
+
+#: sc.admin.class.php:103
+msgid "Facebook User ID"
+msgstr "Korisnički ID za Facebook"
+
+#: sc.admin.class.php:103
+msgid "This is your Facebook User ID."
+msgstr "Ovo je vaš korisnički ID za Facebook."
+
+#: sc.admin.class.php:104
+msgid "Define your Twitter ID"
+msgstr "Definišite vaš ID za Twitter"
+
+#: sc.admin.class.php:104
+msgid "This is your nick name on Twitter."
+msgstr "Ovo je vaš nadimak na Twitter -u."
+
+#: sc.admin.class.php:105
+msgid "Your counters values"
+msgstr "Vrednosti vaših brojača"
+
+#: sc.admin.class.php:105
+msgid ""
+"It is result of the last data requests by a server from Facebook and Twitter."
+msgstr ""
+"To je rezultat poslednjih zahteva za podatke, poslatih od strane servera "
+"Facebook -u i Twitter -u."
+
+#: sc.admin.class.php:109
+msgid "Define requests period"
+msgstr "Definišite period zahteva"
+
+#: sc.admin.class.php:109
+msgid "Hourly"
+msgstr "Svakog sata"
+
+#: sc.admin.class.php:109
+msgid "Twice Daily"
+msgstr "Dva puta dnevno"
+
+#: sc.admin.class.php:109
+msgid "Daily"
+msgstr "Dnevno"
+
+#: sc.admin.class.php:109
+msgid "Select requests period for updating Facebook and Twitter counters."
+msgstr "Odaberite period zahteva za ažuriranje Facebook i Twitter brojača."
+
+#: sc.admin.class.php:110
+msgid "Define request timeout"
+msgstr "Definišite vreme isteka zahteva"
+
+#: sc.admin.class.php:110
+msgid ""
+"This is requests timeout in seconds. In case you have 'Gateway Time-out' "
+"request error you can grow this value."
+msgstr ""
+"Ovo je vreme isteka zahteva, u sekundama. Ukoliko dobijate  'Gateway Time-"
+"out' (Isteklo vreme za mrežni prolaz) grešku zahteva, možete podići ovu "
+"vrednost."
+
+#: sc.admin.class.php:110
+msgid "Only for Twitter!"
+msgstr "Samo za Twitter!"
+
+#: sc.admin.class.php:111
+msgid "Define action at an answer error"
+msgstr "Definišite akciju za grešku odgovora"
+
+#: sc.admin.class.php:111
+msgid "Error code output (for debug purposes only)"
+msgstr "Izlaz koda greške (samo u svrhu otklanjanja programskih grešaka)"
+
+#: sc.admin.class.php:111
+msgid "Data output of the last successful request of the data"
+msgstr "Izlazni podaci poslednjeg uspešnog zahteva za podatke"
+
+#: sc.admin.class.php:111
+msgid "Redirect data request to client side (for Twitter only)"
+msgstr "Preusmeriti zahtev za podatke ka klijentskoj strani (samo za Twitter)"
+
+#: sc.admin.class.php:111
+msgid "Define what to do in case a response error happened."
+msgstr "Definišite šta da se radi kada se dogodi greška odziva."
+
+#: sc.admin.class.php:113
+msgid "Define font color"
+msgstr "Definišite boju slova"
+
+#: sc.admin.class.php:113
+msgid "This is font color of badge (six hex digits)."
+msgstr "Ovo je boja slova značke (šest heksadecimalnih cifara)."
+
+#: sc.admin.class.php:114
+msgid "Define border color"
+msgstr "Definišite boju granice / okvira"
+
+#: sc.admin.class.php:114
+msgid "This is semitransparent (40%) color of border (six hex digits)."
+msgstr "Ovo je poluprovidna (40%) boja granice (šest heksadecimalnih cifara)."
+
+#: sc.admin.class.php:115
+msgid "Define border style"
+msgstr "Definišite stil granice"
+
+#: sc.admin.class.php:115
+msgid "Default"
+msgstr "Podrazumevano"
+
+#: sc.admin.class.php:115
+msgid "WindowZ Aero"
+msgstr "WindowZ Aero"
+
+#: sc.admin.class.php:115
+msgid "Select border style."
+msgstr "Izaberite stil granice."
+
+#: sc.admin.class.php:116
+msgid "Define start gradient color"
+msgstr "Definišite početnu boju gradijenta"
+
+#: sc.admin.class.php:116
+msgid "This is start color of background gradient (six hex digits)."
+msgstr ""
+"Ovo je početna boja pozadinskog gradijenta (šest heksadecimalnih cifara)."
+
+#: sc.admin.class.php:117
+msgid "Define stop gradient color"
+msgstr "Definišite završnu boju gradijenta"
+
+#: sc.admin.class.php:117
+msgid "This is stop color of background gradient (six hex digits)."
+msgstr ""
+"Ovo je završna boja pozadinskog gradijenta (šest heksadecimalnih cifara)."
+
+#: sc.admin.class.php:118
+msgid "Define gradient vector direction"
+msgstr "Definišite pravac vektora gradijenta"
+
+#: sc.admin.class.php:118
+msgid "Vertical"
+msgstr "Vertikalno"
+
+#: sc.admin.class.php:118
+msgid "Horizontal"
+msgstr "Horizontalno"
+
+#: sc.admin.class.php:118
+msgid ""
+"Selecting \"Vertical\" will allow drawing gradient from top (start color) to "
+"bottom (stop color), \"Horizontal\" - from left side (start color) to right "
+"side (stop color)."
+msgstr ""
+"Biranje opcije \"Vertikalno\" će omogućiti iscrtavanje gradijenta od vrha "
+"(početna boja), a opcije \"Horizontalno\" - sa leve (početna boja) na desnu "
+"stranu (završna boja)."
+
+#: sc.admin.class.php:119
+msgid "Define image for Facebook counter"
+msgstr "Definišite sliku za Facebook brojač"
+
+#: sc.admin.class.php:119
+msgid ""
+"This is image for Facebook badge button (Full URL). 50x50 pixels, "
+"transparent background PNG image recommended."
+msgstr ""
+"Ovo je slika za dugme Facebook značke (Ceo URL). Preporučuje se PNG slika "
+"50x50 piksela, sa providnom (transparent) pozadinom."
+
+#: sc.admin.class.php:120
+msgid "Define Facebook counter data"
+msgstr "Definišite podatke za Facebook brojač"
+
+#: sc.admin.class.php:120
+msgid "Friends"
+msgstr "Prijatelji"
+
+#: sc.admin.class.php:120
+msgid "Site Page Fans"
+msgstr "Obožavaoci strane sajta"
+
+#: sc.admin.class.php:120
+msgid ""
+"You can show count of your friends on Facebook or fans of your site page on "
+"Facebook. More details in help."
+msgstr ""
+"Možete prikazati broj vaših prijatelja na Facebook -u, ili broj obožavalaca "
+"Facebook strane vašeg sajta. Više detalja u opciji pomoć."
+
+#: sc.admin.class.php:121
+msgid "Select Site's Page on Facebook"
+msgstr "Izaberite stranu sajta na Facebook -u"
+
+#: sc.admin.class.php:121
+msgid ""
+"Choose proper page from available pages of your sites on Facebook or select "
+"\"None\"."
+msgstr ""
+"Izaberite stranu između raspoloživih Facebook strana vaših sajtova, ili "
+"izaberite \"Ništa\"."
+
+#: sc.admin.class.php:122
+msgid "Define image for Twitter counter"
+msgstr "Definišite sliku za Twitter brojač"
+
+#: sc.admin.class.php:122
+msgid ""
+"This is image for Twitter badge button (Full URL). 50x50 pixels, transparent "
+"background PNG image recommended."
+msgstr ""
+"Ovo je slika za dugme Twitter značke (Ceo URL). Preporučuje se PNG slika "
+"50x50 piksela, sa providnom (transparent) pozadinom."
+
+#: sc.admin.class.php:123
+msgid "Define badge position"
+msgstr "Definišite položaj značke"
+
+#: sc.admin.class.php:123
+msgid "Right"
+msgstr "Desno"
+
+#: sc.admin.class.php:123
+msgid "Left"
+msgstr "Levo"
+
+#: sc.admin.class.php:123
+msgid ""
+"Selecting \"Right\" will set badge near the right side of browser window, "
+"\"Left\" near the left side."
+msgstr ""
+"Biranje opcije \"Desno\" će postaviti značku blizu desne strane prozora "
+"pregledača, a \"Levo\" blizu leve strane."
+
+#: sc.admin.class.php:124
+msgid "Define badge position displacement"
+msgstr "Definišite izmeštanje položaja značke"
+
+#: sc.admin.class.php:124
+msgid ""
+"By default, badge is placed on the middle line of browser window. You can "
+"displace badge up (negative value) or down (positive value) relatively "
+"middle line by setting this value."
+msgstr ""
+"Po \"default\" -u, značka se postavlja po središnjoj liniji prozora "
+"pregledača. Podešavanjem ove vrednosti možete izmestiti značku na gore "
+"(negativna vrednost), ili na dole (pozitivna vrednost) - posmatrano u odnosu "
+"na središnju liniju."
+
+#: sc.admin.class.php:125
+msgid "Localization of badge strings"
+msgstr "Lokalizacija stringova značke"
+
+#: sc.admin.class.php:125
+msgid "Localize"
+msgstr "Lokalizovati"
+
+#: sc.admin.class.php:125
+msgid "Do not localize"
+msgstr "Ne lokalizovati"
+
+#: sc.admin.class.php:125
+msgid ""
+"If you don't want to display localized version of words \"reader(s)\" and "
+"\"friend(s)\", select \"Do not localize\". Also you can use filters "
+"<code>simple_counters_localization_facebook</code> and "
+"<code>simple_counters_localization_twitter</code> for defining your own "
+"localized versions of these words."
+msgstr ""
+"Ako ne želite da se prikazuju lokalizovane verzije reči \"reader"
+"(s)\" (čitalac(oci)) i \"friend(s)\" (prijatelj(i)), odaberite opciju \"Ne "
+"lokalizovati\". Takođe možete koristiti filtere "
+"<code>simple_counters_localization_facebook</code> i "
+"<code>simple_counters_localization_twitter</code>, za definisanje vaših "
+"sopstvenih verzija ovih reči."
+
+#: sc.admin.class.php:127
+msgid "Select Theme"
+msgstr "Izaberite temu"
+
+#: sc.admin.class.php:127
+msgid "Cream"
+msgstr "Krem"
+
+#: sc.admin.class.php:127
+msgid "Dark"
+msgstr "Tamno"
+
+#: sc.admin.class.php:127
+msgid "Green"
+msgstr "Zeleno"
+
+#: sc.admin.class.php:127
+msgid "Light"
+msgstr "Svetlo"
+
+#: sc.admin.class.php:127
+msgid "Red"
+msgstr "Crveno"
+
+#: sc.admin.class.php:127
+msgid "Blue"
+msgstr "Plavo"
+
+#: sc.admin.class.php:127
+msgid "Custom (See below)"
+msgstr "Prilagođeno (pogledajte ispod)"
+
+#: sc.admin.class.php:127
+msgid "Color theme selecting."
+msgstr "Biranje kolorne teme."
+
+#: sc.admin.class.php:128
+msgid "Define tooltip font color"
+msgstr "Definišite boju slova kratkog opisa alata"
+
+#: sc.admin.class.php:128
+msgid "This is font color of tooltip (six hex digits)."
+msgstr "Ovo je boja slova kratkog opisa alata (šest heksadecimalnih cifara)."
+
+#: sc.admin.class.php:128 sc.admin.class.php:130 sc.admin.class.php:131
+msgid "This parameter is useful only for tooltip custom theme."
+msgstr ""
+"Ovaj parametar je koristan samo za temu sa prilagođenim kratkim opisima "
+"alata."
+
+#: sc.admin.class.php:130
+msgid "Define tooltip background color"
+msgstr "Definišite boju pozadine kratkog opisa alata"
+
+#: sc.admin.class.php:130
+msgid "This is background color of tooltip (six hex digits)."
+msgstr ""
+"Ovo je boja pozadine kratkog opisa alata (šest heksadecimalnih cifara)."
+
+#: sc.admin.class.php:131
+msgid "Define tooltip border color"
+msgstr "Definišite boju granice kratkog opisa alata"
+
+#: sc.admin.class.php:131
+msgid "This is color of tooltip border (six hex digits)."
+msgstr ""
+"Ovo je boja granice (okvira) kratkog opisa alata (šest heksadecimalnih "
+"vrednosti)."
+
+#: sc.admin.class.php:132
+msgid "Define template-word style"
+msgstr "Definišite stil šablon-reči"
+
+#: sc.admin.class.php:132
+msgid "bold"
+msgstr "podebljano (bold)"
+
+#: sc.admin.class.php:132
+msgid "italic"
+msgstr "iskošeno (italic)"
+
+#: sc.admin.class.php:132
+msgid "Select template-words representation style for displaying in the hints."
+msgstr ""
+"Izaberite stil predstavljanja šablon-reči (template-words), za prikazivanje "
+"u savetima."
+
+#: sc.admin.class.php:133
+msgid "Define text for Facebook counter tooltip (friends)"
+msgstr "Definišite tekst za kratak opis Facebook brojača (prijatelji)"
+
+#: sc.admin.class.php:133
+msgid "This is text for Facebook tooltip (friends display mode)."
+msgstr ""
+"Ovo je tekst za kratak opis Facebook alata (mod sa prikazom prijatelja)."
+
+#: sc.admin.class.php:133 sc.admin.class.php:134 sc.admin.class.php:137
+msgid ""
+"You can use template-word <strong>[blog_name]</strong> to display name of "
+"your blog, <strong>[fb_fullname]</strong> to display your Full Name on "
+"Facebook, <strong>[fb_name]</strong> to display your First Name on Facebook "
+"or <strong>[twitter_nick]</strong> to display your Twitter Nickname."
+msgstr ""
+"Možete upotrebiti šablon-reč <strong>[blog_name]</strong> da prikažete naziv "
+"vašeg bloga, <strong>[fb_fullname]</strong> da prikažete svoje puno ime (ime "
+"i prezime) na Facebook -u, <strong>[fb_name]</strong> da prikažete samo "
+"svoje ime na Facebook -u, ili <strong>[twitter_nick]</strong> da prikažete "
+"svoj Twitter nadimak."
+
+#: sc.admin.class.php:134
+msgid "Define text for Facebook counter tooltip (site page fans)"
+msgstr ""
+"Definišite tekst za kratak opis Facebook brojača (obožavaoci strane sajta)"
+
+#: sc.admin.class.php:134
+msgid "This is text for Facebook tooltip (fan display mode)."
+msgstr ""
+"Ovo je tekst za kratak opis Facebook alata (mod sa prikazom obožavalaca)."
+
+#: sc.admin.class.php:135
+msgid "Define image for Facebook counter tooltip"
+msgstr "Definišite sliku za kratak opis Facebook brojača"
+
+#: sc.admin.class.php:135
+msgid ""
+"This is image for Facebook tooltip (Full URL). 40x40 pixels, transparent "
+"background PNG image recommended."
+msgstr ""
+"Ovo je slika za kratak opis Facebook alata (Ceo URL). Preporučuje se PNG "
+"slika 40x40 piksela, sa providnom (transparent) pozadinom."
+
+#: sc.admin.class.php:136
+msgid "Define image source for Facebook counter tooltip"
+msgstr "Definišite izvor slike za kratak opis Facebook brojača"
+
+#: sc.admin.class.php:136 sc.admin.class.php:139
+msgid "User defined"
+msgstr "Korisnički definisano"
+
+#: sc.admin.class.php:136
+msgid "Facebook cover image"
+msgstr "Facebook naslovna slika"
+
+#: sc.admin.class.php:136
+msgid ""
+"Selecting \"User defined\" will set user defined image for Facebook counter "
+"tooltip, \"Facebook cover image\" will set your Facebook cover image (square "
+"profile picture) as image for Facebook counter tooltip."
+msgstr ""
+"Biranje opcije \"Korisnički definisano\" će za kratak opis Facebook brojača "
+"podesiti korisnički definisanu sliku, \"Facebook naslovna slika\" će "
+"podesiti vašu Facebook naslovnu sliku (kvadratnu profilnu sliku) kao sliku "
+"za kratak opis Facebook brojača."
+
+#: sc.admin.class.php:137
+msgid "Define text for Twitter counter tooltip"
+msgstr "Definišite tekst za kratak opis Twitter brojača"
+
+#: sc.admin.class.php:137
+msgid "This is text for Twitter tooltip."
+msgstr "Ovo je tekst za kratak opis Twitter alata."
+
+#: sc.admin.class.php:138
+msgid "Define image for Twitter counter tooltip"
+msgstr "Definišite sliku za kratak opis Twitter brojača"
+
+#: sc.admin.class.php:138
+msgid ""
+"This is image for Twitter tooltip (Full URL). 40x40 pixels, transparent "
+"background PNG image recommended."
+msgstr ""
+"Ovo je slika za kratak opis Twitter alata. Preporučuje se PNG slika 40x40 "
+"piksela, sa providnom (transparent) pozadinom."
+
+#: sc.admin.class.php:139
+msgid "Define image source for Twitter counter tooltip"
+msgstr "Definišite izvor slike za kratak opis Twitter brojača"
+
+#: sc.admin.class.php:139
+msgid "Twitter avatar"
+msgstr "Twitter avatar"
+
+#: sc.admin.class.php:139
+msgid ""
+"Selecting \"User defined\" will set user defined image for Twitter counter "
+"tooltip, \"Twitter avatar\" will set your Twitter avatar as image for "
+"Twitter counter tooltip."
+msgstr ""
+"Biranje opcije \"Korisnički definisano\" će podesiti korisnički definisanu "
+"sliku za kratak opis Twitter brojača, \"Twitter avatar\" će podesiti vašeg "
+"Twitter avatara kao sliku za kratak opis Twitter brojača."
+
+#: sc.admin.class.php:155
+msgid ""
+"You must define IDs for both accounts, Facebook and Twitter, for properly "
+"work of plugin."
+msgstr ""
+"Morate definisati ID -ove za oba naloga, i Facebook i Twitter, da bi dodatak "
+"pravilno funkcionisao."
+
+#: sc.admin.class.php:159
+msgid "Use parameters below for customising Simple Counters badge style."
+msgstr ""
+"Upotrebite donje parametre za prilagođavanje stila Simple Counters značke."
+
+#: sc.admin.class.php:163
+msgid "Use parameters below for customising output data format."
+msgstr ""
+"Upotrebite donje parametre za prilagođavanje formata izlaznih podataka."
+
+#: sc.admin.class.php:167
+msgid "Use parameters below for customising Simple Counters tooltips."
+msgstr ""
+"Upotrebite donje parametre za prilagođavanje Simple Counters kratkih opisa "
+"alata."
+
+#: sc.admin.class.php:171
+msgid ""
+"Use parameters below for customising technical parameters of Simple Counters."
+msgstr ""
+"Upotrebite donje parametre za prilagođavanje tehničkih parametara Simple "
+"Counters -a."
+
+#: sc.admin.class.php:242
+msgid "Clear"
+msgstr "Obrisati"
+
+#: sc.admin.class.php:305
+msgid "None"
+msgstr "Ništa"
+
+#: sc.admin.class.php:501
+msgid "Simple Counters"
+msgstr "Simple Counters"
+
+#: sc.admin.class.php:515
+msgid "Creating Facebook App"
+msgstr "Kreiranje Facebook aplikacije"
+
+#: sc.admin.class.php:516
+msgid ""
+"All data of your account on Facebook are confidential and are guarded. For "
+"retrieving some part of data, this plugin must have gateway to your Facebook "
+"account. Such gateway is Facebook application which you can create on the "
+"Facebook site of developers."
+msgstr ""
+"Svi podaci vašeg Facebook naloga su poverljivi i zaštićeni su. Za "
+"preuzimanje nekog dela podataka, ovaj dodatak mora imati mrežni prolaz ka "
+"vašem Facebook nalogu. Takav mrežni prolaz je Facebook aplikacija, koju "
+"možete napraviti na Facebook sajtu za programere."
+
+#: sc.admin.class.php:517
+#, php-format
+msgid ""
+"If you don't already have an app for this website, go to %shttps://"
+"developers.facebook.com/apps%s and click the \"Create New App\" button. "
+"You'll see a dialog like the one below. Fill this in and click \"Continue\"."
+msgstr ""
+"Ako nemate već aplikaciju za ovaj web sajt, idite na %shttps://developers."
+"facebook.com/apps%s i kliknite na dugme \"Create New App)\" (napraviti novu "
+"aplikaciju). Videćete okvir za dijalog, poput onog dole. Upišite ovo u njega "
+"i kliknite na \"Continue\" (nastaviti)."
+
+#: sc.admin.class.php:519
+#, php-format
+msgid ""
+"Next, set up your app so that it looks like the settings below. Make sure "
+"you set your app's icon and image, too. If you already have an app and "
+"skipped previous step, you can view your app settings by going to %shttps://"
+"developers.facebook.com/apps%s."
+msgstr ""
+"Zatim, podesite vašu aplikaciju tako da izgleda kao donja podešenja. "
+"Proverite da li ste isto tako podesili i ikonu i sliku vaše aplikacije. Ako "
+"već imate aplikaciju, i preskočili ste prethodni korak, možete videti "
+"podešenja vaše aplikacije idući na %shttps://developers.facebook.com/apps%s."
+
+#: sc.admin.class.php:521
+msgid ""
+"Here are for some recommendations for filling this form out, based on where "
+"this plugin is installed."
+msgstr ""
+"Evo nekih preporuka za popunjavanje ove forme, prema tome gde je ovaj "
+"dodatak instaliran."
+
+#: sc.admin.class.php:522
+msgid "and"
+msgstr "i"
+
+#: sc.admin.class.php:523
+msgid "Plugin Facebook Settings"
+msgstr "Facebook podešenja dodatka"
+
+#: sc.admin.class.php:524
+msgid "Plugin's parameters for Facebook are configuring in two steps:"
+msgstr "Parametri dodatka za Facebook se konfigurišu u dva koraka:"
+
+#: sc.admin.class.php:525
+msgid "Step One"
+msgstr "Prvi korak"
+
+#: sc.admin.class.php:526
+msgid ""
+"Fill up fields \"Facebook App Id\" and \"Facebook App Secret\" (only these "
+"fields) using App Id and App Secret of created Facebook app and save "
+"plugin's parameters."
+msgstr ""
+"Popunite polja \"ID Facebook aplikacije\" i \"Tajni ključ Facebook aplikacije"
+"\" (samo ova polja), koristeći App Id i App Secret kreirane Facebook "
+"aplikacije, i snimite parametre dodatka."
+
+#: sc.admin.class.php:527
+msgid "Step Two"
+msgstr "Drugi korak"
+
+#: sc.admin.class.php:528
+msgid ""
+"If the data in the previous step was entered correctly, the plugin will "
+"detects your full name. If it's your name, save again plugin's settings, for "
+"complete the connection settings with Facebook."
+msgstr ""
+"Ako su podaci u prethodnom koraku ispravno uneti, dodatak će detektovati "
+"vaše puno ime. Ako to jeste vaše ime, ponovo snimite podešenja dodatka, da "
+"završite podešavanja konekcije sa Facebook -om."
+
+#: sc.admin.class.php:529
+msgid "Important"
+msgstr "Važno"
+
+#: sc.admin.class.php:530
+msgid ""
+"If you have several accounts on Facebook, you must to be logged in to the "
+"Facebook account that contain the App to enable communication with this "
+"site. Or you must be logged out from any Facebook accounts."
+msgstr ""
+"Ako imate nekoliko naloga na Facebook -u, morate biti prijavljeni na "
+"Facebook nalog koji sadrži aplikaciju, da omogućite komunikaciju sa ovim "
+"sajtom. Ili se morate odjaviti sa svih Facebook naloga."
+
+#: sc.admin.class.php:538
+msgid "Twitter Settings"
+msgstr "Twitter podešenja"
+
+#: sc.admin.class.php:539
+msgid "Just fill \"Twitter ID\" field with your Twitter nickname."
+msgstr "Samo upišite vaš Twitter nadimak u polje \"Twitter ID\"."
+
+#: sc.admin.class.php:550
+msgid "Simple Counters Settings"
+msgstr "Simple Counters podešenja"
+
+#: sc.admin.class.php:564
+msgid "System Info"
+msgstr "Sistemske informacije"
+
+#: sc.admin.class.php:568
+msgid "Wordpress Version"
+msgstr "Wordpress verzija"
+
+#: sc.admin.class.php:569
+msgid "Plugin Version"
+msgstr "Verzija dodatka"
+
+#: sc.admin.class.php:570
+msgid "PHP Version"
+msgstr "PH verzija"
+
+#: sc.admin.class.php:571
+msgid "Memory Limit"
+msgstr "Memorijsko ograničenje"
+
+#: sc.admin.class.php:575
+msgid "Note! If you have detected a bug, include this data to bug report."
+msgstr ""
+"Napomena! Ako ste otkrili programsku grešku, uključite ove podatke u "
+"izveštaj o programskoj grešci."
+
+#: sc.admin.class.php:580
+msgid "Resources"
+msgstr "Resursi"
+
+#: sc.admin.class.php:583
+msgid "Wordpress Plugin Page"
+msgstr "Wordpress strana o dodatku"
+
+#: sc.admin.class.php:584
+msgid "Author Plugin Page"
+msgstr "Autorova strana o dodatku"
+
+#: sc.admin.class.php:585
+msgid "Support Forum"
+msgstr "Forum za podršku"
+
+#: sc.admin.class.php:586
+msgid "Author's Blog"
+msgstr "Autorov blog"
+
+#: sc.admin.class.php:591
+msgid "Donations"
+msgstr "Donacije"
+
+#: sc.admin.class.php:595
+#, php-format
+msgid ""
+"If you have found this plugin useful, please consider making a %s to help "
+"support future development. Your support will be much appreciated. Thank you!"
+msgstr ""
+"Ako vam se ovaj dodatak pokazao korisnim, molim vas, razmislite o %s, da "
+"pomognete dalji razvoj. Vaša podrška će se veoma ceniti. Hvala vam!"
+
+#: sc.admin.class.php:596 sc.admin.class.php:603
+msgid "Donate Now!"
+msgstr "Donirajte odmah!"
+
+#: sc.admin.class.php:596
+msgid "donation"
+msgstr "donacija"
+
+#: sc.admin.class.php:600 sc.admin.class.php:613
+msgid "Donate via"
+msgstr "Donirajte preko"
+
+#: sc.admin.class.php:608
+#, php-format
+msgid ""
+"Warning! The default value of donation is %s. Don't worry! This is not my "
+"appetite, this is default value defined by Payoneer service."
+msgstr ""
+"Upozorenje! Podrazumevana vrednost donacije je %s. Ne brinite! Ovo nije moj "
+"apetit, to je vrednost koju definiše servis Payoneer."
+
+#: sc.admin.class.php:608
+msgid " You can change it to any value you want!"
+msgstr "Možete je promeniti u koju god vrednost želite!"
+
+#: sc.admin.class.php:625
+msgid "Another Plugins"
+msgstr "Drugi dodaci"
+
+#: sc.admin.class.php:627
+msgid "Another plugins from minimus"
+msgstr "Drugi dodaci od minimus -a"
+
+#: sc.admin.class.php:629
+msgid ""
+"Advertisment rotation system with a flexible logic of displaying "
+"advertisements. "
+msgstr ""
+"Sistem za rotaciju reklama sa fleksibilnom logikom prikazivanja reklama."
+
+#: sc.admin.class.php:630
+msgid "Highlights any portion of text as text in the colored boxes."
+msgstr "Ističe bilo koji deo teksta kao tekst u obojenim okvirima."
+
+#: sc.admin.class.php:631
+msgid "This plugin is WordPress shell for FloatBox library by Byron McGregor."
+msgstr ""
+"Ovaj dodatak je WordPress komandno okruženje (shell) za FloatBox biblioteku "
+"od Byron McGregor -a."
+
+#: sc.admin.class.php:632
+msgid "Adds copyright notice in the end of each post of your blog. "
+msgstr "Dodavanje napomene o autorskim pravima na svakom postu vašeg bloga."
+
+#: sc.admin.class.php:641
+msgid "General"
+msgstr "Opšte"
+
+#: sc.admin.class.php:642
+msgid "Badge"
+msgstr "Značka"
+
+#: sc.admin.class.php:643
+msgid "Tooltips"
+msgstr "Tooltips (kratki opisi alata)"
+
+#: sc.class.php:140 sc.class.php:153
+msgid "Be my friend"
+msgstr "Budite mi prijatelj"
+
+#: sc.class.php:140 sc.class.php:142 sc.class.php:152 sc.class.php:153
+msgid ""
+"on Facebook to receive breaking news as well as receive other site updates!"
+msgstr ""
+"na Facebook -u, da primate najnovije vesti, kao i druge dopune/ažuriranja "
+"sajta!"
+
+#: sc.class.php:142 sc.class.php:152
+msgid "Be fan of"
+msgstr "Budite obožavalac"
+
+#: sc.class.php:144
+msgid "Share and discover what is happening right now, at the"
+msgstr "Podelite i otkrijte šta se upravo sada dešava, na"
+
+#: sc.class.php:144
+msgid "Follow Me on Twitter!"
+msgstr "Pratite me na Twitter -u!"
+
+#: sc.class.php:157 sc.class.php:242 sc.class.php:555
+msgid "friend"
+msgid_plural "friends"
+msgstr[0] "prijatelj"
+msgstr[1] "prijatelja"
+msgstr[2] "prijatelja"
+
+#: sc.class.php:158 sc.class.php:244 sc.class.php:556
+msgid "follower"
+msgid_plural "followers"
+msgstr[0] "pratilac"
+msgstr[1] "pratioca"
+msgstr[2] "pratilaca"
+
+#: sc.class.php:243 sc.class.php:555
+msgid "fan"
+msgid_plural "fans"
+msgstr[0] "obožavalac"
+msgstr[1] "obožavaoca"
+msgstr[2] "obožavalaca"
+
+#~ msgid "reader"
+#~ msgid_plural "readers"
+#~ msgstr[0] "читатель"
+#~ msgstr[1] "читателя"
+#~ msgstr[2] "читателей"
+
+#~ msgid "Subscribe to"
+#~ msgstr "Подпишитесь на рассылку сайта"
+
+#~ msgid "Clear Facebook User ID"
+#~ msgstr "Удалить ID пользователя"
+
+#~ msgid "Define image for FeedBurner counter"
+#~ msgstr "Иконка счётчика FeedBurner"
+
+#~ msgid ""
+#~ "This is image for FeedBurner badge button (Full URL). 50x50 pixels, "
+#~ "transparent background PNG image recommended."
+#~ msgstr ""
+#~ "Иконка для области вывода счётчика FeedBurner (полный URL). Рекомендуется "
+#~ "изображение PNG, 50x50 пиксел, прозрачный фон. Внимание! Изображение "
+#~ "ЛЮБОГО размера будет выводиться в размере 50х50! "
+
+#~ msgid "Define text for FeedBurner counter tooltip"
+#~ msgstr "Текст подсказки FeedBurner"
+
+#~ msgid "This is text for FeedBurner tooltip."
+#~ msgstr "Это текст который будет показан в подсказке FeedBurner."
+
+#~ msgid "Define image for FeedBurner counter tooltip"
+#~ msgstr "Иконка FeedBurner"
+
+#~ msgid ""
+#~ "This is image for FeedBurner tooltip (Full URL). 40x40 pixels, "
+#~ "transparent background PNG image recommended."
+#~ msgstr ""
+#~ "Иконка FeedBurner в подсказке (полный URL). Рекомендуется изображение "
+#~ "PNG, 40x40, прозрачный фон."
+
+#~ msgid "FeedBurner"
+#~ msgstr "FeedBurner"
+
+#~ msgid "Data request to FeedBurner server will be run on client side."
+#~ msgstr ""
+#~ "Запрос данных к серверу FeedBurner будет выполнен на стороне клиента."
+
+#~ msgid "Output Data Settings"
+#~ msgstr "Параметры выходных данных"
+
+#~ msgid "Define your FeedBurner ID"
+#~ msgstr "Учётная запись FeedBurner"
+
+#~ msgid ""
+#~ "This is the URI of the feed (same as <strong>http://feedproxy.google.com/"
+#~ "[feeduri]</strong>). Enter only <strong>[feeduri]</strong>."
+#~ msgstr ""
+#~ "Это URI фида (такой как <strong>http://feedproxy.google.com/[feeduri]</"
+#~ "strong>). Вводить необходимо только <strong>[feeduri]</strong>."
+
+#~ msgid ""
+#~ "You must enable <strong>Awareness API</strong> in your FeedBurner account "
+#~ "(Publicize tab)."
+#~ msgstr ""
+#~ "Необходимо включить поддержку <strong>Awareness API</strong> с помощью "
+#~ "панели управления в вашей учётной записи FeedBurner (закладка Publicize)."
+
+#~ msgid "Define FeedBurner Output Page Data Format"
+#~ msgstr "Формат данных страницы FeedBurner"
+
+#~ msgid "RSS XML"
+#~ msgstr "Формат RSS XML"
+
+#~ msgid ""
+#~ "Selecting \"Default\" will set output page data format to default "
+#~ "FeedBurner Subscription page, selecting \"XML\" will set output page data "
+#~ "format to RSS XML Data Format. In other words, if \"Default\" when user "
+#~ "clicks FeedBurner icon he opens Default FeedBurner Subscription Page, in "
+#~ "other case XML RSS Feed."
+#~ msgstr ""
+#~ "Этот параметр задаёт формат данных открываемой страницы FeedBurner. "
+#~ "Другими словами, если выбрана стандартная страница подписки, при клике "
+#~ "пользователя на иконке FeedBurner, откроется стандартная страница "
+#~ "подписки FeedBurner, в противном случае откроется файл потока RSS."
+
+#~ msgid "Define tooltip font size"
+#~ msgstr "Размер шрифта"
+
+#~ msgid "This is font size of tooltip."
+#~ msgstr "Размер шрифта подсказки."
+
+#~ msgid "Simple Counters Settings Updated."
+#~ msgstr "Параметры простых счётчиков сохранены."
+
+#~ msgid "Plugin version"
+#~ msgstr "Версия плагина"

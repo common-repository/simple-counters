@@ -1,0 +1,973 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: simple-counters\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-12 14:22+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: minimus <minimus@blogcoding.ru>\n"
+"Language-Team: minimus <minimus@blogovod.co.cc>\n"
+"Language: ru_BY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__;__ngettext:1,2;__ngettext_noop:1,2;_c;_n:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sc.admin.class.php:13
+#, php-format
+msgid "Welcome, <strong>%s</strong>! All Facebook settings are ok."
+msgstr ""
+"Добро пожаловать, <strong>%s</strong>! Все параметры Facebook установлены."
+
+#: sc.admin.class.php:15
+msgid "Hi"
+msgstr "Привет"
+
+#: sc.admin.class.php:17
+msgid ""
+"If it is your name, just save plugin's options again to finish process of "
+"Facebook setup. If something goes wrong, leave this page without saving, "
+"exit your Facebook account and visit this page again to finish setup process."
+msgstr ""
+"Если это Ваше имя, сохраните параметры плагина ещё раз, чтобы завершить "
+"процесс настройки параметров Facebook. Если что-то пошло не так, как надо, "
+"перейдите на любую другую страницу Вашего блога, не сохраняя параметры, "
+"затем выйдете из своего аккаунта Facebook и снова зайдите на эту страницу."
+
+#: sc.admin.class.php:43
+msgid "Facebook"
+msgstr "Facebook"
+
+#: sc.admin.class.php:43 sc.admin.class.php:48
+msgid "Error Code"
+msgstr "Код ошибки"
+
+#: sc.admin.class.php:43
+msgid "Data request to Facebook server will be run on client side."
+msgstr "Запрос данных к серверу Facebook будет выполнен на стороне клиента."
+
+#: sc.admin.class.php:48
+msgid "Twitter"
+msgstr "Twitter"
+
+#: sc.admin.class.php:48
+msgid "Data request to Twitter server will be run on client side."
+msgstr "Запрос данных к серверу Twitter будет выполнен на стороне клиента."
+
+#: sc.admin.class.php:94
+msgid "Account Settings"
+msgstr "Параметры учётных записей"
+
+#: sc.admin.class.php:96
+msgid "Technical Settings"
+msgstr "Технические параметры"
+
+#: sc.admin.class.php:97
+msgid "Badge Settings"
+msgstr "Параметры бейджика"
+
+#: sc.admin.class.php:98
+msgid "ToolTips Settings"
+msgstr "Параметры подсказок"
+
+#: sc.admin.class.php:101
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: sc.admin.class.php:101
+msgid "This is App Id of your Facebook application."
+msgstr "App Id Вашего приложения на Facebook."
+
+#: sc.admin.class.php:101 sc.admin.class.php:102 sc.admin.class.php:103
+msgid "For more details see help (tab in right top corner of this screen)."
+msgstr ""
+"Для получения дополнительной информации смотрите справку (вкладка в правом "
+"верхнем углу этой страницы)."
+
+#: sc.admin.class.php:102
+msgid "Facebook App Secret"
+msgstr "Facebook App Secret"
+
+#: sc.admin.class.php:102
+msgid "This is App Secret of your Facebook application."
+msgstr "Это App Secret Вашего приложения на Facebook."
+
+#: sc.admin.class.php:103
+msgid "Facebook User ID"
+msgstr "ID пользователя на Facebook"
+
+#: sc.admin.class.php:103
+msgid "This is your Facebook User ID."
+msgstr "Ваш пользовательский ID в системе Facebook."
+
+#: sc.admin.class.php:104
+msgid "Define your Twitter ID"
+msgstr "Учётная запись Twitter"
+
+#: sc.admin.class.php:104
+msgid "This is your nick name on Twitter."
+msgstr "Ваш ник в системе Twitter."
+
+#: sc.admin.class.php:105
+msgid "Your counters values"
+msgstr "Значения счётчиков"
+
+#: sc.admin.class.php:105
+msgid ""
+"It is result of the last data requests by a server from Facebook and Twitter."
+msgstr ""
+"Результат последних запросов вашего сервера к серверам Facebook и Twitter."
+
+#: sc.admin.class.php:109
+msgid "Define requests period"
+msgstr "Периодичность обновления"
+
+#: sc.admin.class.php:109
+msgid "Hourly"
+msgstr "Ежечасно"
+
+#: sc.admin.class.php:109
+msgid "Twice Daily"
+msgstr "Дважды в день"
+
+#: sc.admin.class.php:109
+msgid "Daily"
+msgstr "Ежедневно"
+
+#: sc.admin.class.php:109
+msgid "Select requests period for updating Facebook and Twitter counters."
+msgstr "Выберите периодичность обновления счётчиков Facebook и Twitter."
+
+#: sc.admin.class.php:110
+msgid "Define request timeout"
+msgstr "Время ожидания ответа сервера"
+
+#: sc.admin.class.php:110
+msgid ""
+"This is requests timeout in seconds. In case you have 'Gateway Time-out' "
+"request error you can grow this value."
+msgstr ""
+"Время ожидания ответа сервера Twitter в секундах. В случае появления ошибок "
+"получения данных (например Gateway Time-out) увеличьте время ожидания "
+"ответа. Не устанавливайте этот параметр в значение более 120-ти - это "
+"чревато проблемами с хост-провайдером сервиса."
+
+#: sc.admin.class.php:110
+msgid "Only for Twitter!"
+msgstr "Только для Twitter!"
+
+#: sc.admin.class.php:111
+msgid "Define action at an answer error"
+msgstr "Действия при ошибке выполнения запроса"
+
+#: sc.admin.class.php:111
+msgid "Error code output (for debug purposes only)"
+msgstr "Вывод кода ошибки (для отладки)"
+
+#: sc.admin.class.php:111
+msgid "Data output of the last successful request of the data"
+msgstr "Вывод данных последнего успешного запроса"
+
+#: sc.admin.class.php:111
+msgid "Redirect data request to client side (for Twitter only)"
+msgstr ""
+"Перенаправить выполнение запроса на сторону клиента (только для Twitter)"
+
+#: sc.admin.class.php:111
+msgid "Define what to do in case a response error happened."
+msgstr "Какие действия выполнять в случае ошибки выполнения запроса."
+
+#: sc.admin.class.php:113
+msgid "Define font color"
+msgstr "Цвет шрифта"
+
+#: sc.admin.class.php:113
+msgid "This is font color of badge (six hex digits)."
+msgstr "Цвет шрифта бейджика (шесть шестнадцатиричных цифр)."
+
+#: sc.admin.class.php:114
+msgid "Define border color"
+msgstr "Цвет окантовки"
+
+#: sc.admin.class.php:114
+msgid "This is semitransparent (40%) color of border (six hex digits)."
+msgstr ""
+"Цвет полупрозрачного (40%) поля, обрамляющего бейджик (шесть "
+"шестнадцатиричных цифр)."
+
+#: sc.admin.class.php:115
+msgid "Define border style"
+msgstr "Стиль окантовки"
+
+#: sc.admin.class.php:115
+msgid "Default"
+msgstr "Стандартная страница подписки"
+
+#: sc.admin.class.php:115
+msgid "WindowZ Aero"
+msgstr "WindowZ Aero"
+
+#: sc.admin.class.php:115
+msgid "Select border style."
+msgstr "Выберите стиль окантовки бейджика."
+
+#: sc.admin.class.php:116
+msgid "Define start gradient color"
+msgstr "Начальный цвет градиента"
+
+#: sc.admin.class.php:116
+msgid "This is start color of background gradient (six hex digits)."
+msgstr "Начальный цвет градиента фона бейджика (шесть шестнадцатиричных цифр)."
+
+#: sc.admin.class.php:117
+msgid "Define stop gradient color"
+msgstr "Конечный цвет градиента"
+
+#: sc.admin.class.php:117
+msgid "This is stop color of background gradient (six hex digits)."
+msgstr "Конечный цвет градиента фона бейджика (шесть шестнадцатиричных цифр)."
+
+#: sc.admin.class.php:118
+msgid "Define gradient vector direction"
+msgstr "Направление вектора градиента"
+
+#: sc.admin.class.php:118
+msgid "Vertical"
+msgstr "Вертикальное"
+
+#: sc.admin.class.php:118
+msgid "Horizontal"
+msgstr "Горизонтальное"
+
+#: sc.admin.class.php:118
+msgid ""
+"Selecting \"Vertical\" will allow drawing gradient from top (start color) to "
+"bottom (stop color), \"Horizontal\" - from left side (start color) to right "
+"side (stop color)."
+msgstr ""
+"Выберите \"Вертикальное\", для изменения цвета градиента сверху вниз, или "
+"\"Горизонтальное\", для изменения цвета градиента справа налево."
+
+#: sc.admin.class.php:119
+msgid "Define image for Facebook counter"
+msgstr "Иконка счётчика Facebook"
+
+#: sc.admin.class.php:119
+msgid ""
+"This is image for Facebook badge button (Full URL). 50x50 pixels, "
+"transparent background PNG image recommended."
+msgstr ""
+"Иконка для области вывода счётчика Facebook (полный URL). Рекомендуется "
+"изображение PNG, 50x50 пиксел, прозрачный фон. Внимание! Изображение ЛЮБОГО "
+"размера будет выводиться в размере 50х50! "
+
+#: sc.admin.class.php:120
+msgid "Define Facebook counter data"
+msgstr "Данные счётчика Facebook"
+
+#: sc.admin.class.php:120
+msgid "Friends"
+msgstr "Друзья"
+
+#: sc.admin.class.php:120
+msgid "Site Page Fans"
+msgstr "Фаны страницы сайта"
+
+#: sc.admin.class.php:120
+msgid ""
+"You can show count of your friends on Facebook or fans of your site page on "
+"Facebook. More details in help."
+msgstr ""
+"Можете показывать количество друзей на Facebook или поклонников страницы "
+"сайта на Facebook. подробнее в справке."
+
+#: sc.admin.class.php:121
+msgid "Select Site's Page on Facebook"
+msgstr "Выберите страницу сайта на Facebook"
+
+#: sc.admin.class.php:121
+msgid ""
+"Choose proper page from available pages of your sites on Facebook or select "
+"\"None\"."
+msgstr ""
+"Выберите нужную страницу из доступных страниц вашего сайта на Facebook или "
+"выберите \"Нет\"."
+
+#: sc.admin.class.php:122
+msgid "Define image for Twitter counter"
+msgstr "Иконка счётчика Twitter"
+
+#: sc.admin.class.php:122
+msgid ""
+"This is image for Twitter badge button (Full URL). 50x50 pixels, transparent "
+"background PNG image recommended."
+msgstr ""
+"Иконка для области вывода счётчика Twitter (полный URL). Рекомендуется "
+"изображение PNG, 50x50 пиксел, прозрачный фон. Внимание! Изображение ЛЮБОГО "
+"размера будет выводиться в размере 50х50! "
+
+#: sc.admin.class.php:123
+msgid "Define badge position"
+msgstr "Позиция бейджика"
+
+#: sc.admin.class.php:123
+msgid "Right"
+msgstr "Справа"
+
+#: sc.admin.class.php:123
+msgid "Left"
+msgstr "Слева"
+
+#: sc.admin.class.php:123
+msgid ""
+"Selecting \"Right\" will set badge near the right side of browser window, "
+"\"Left\" near the left side."
+msgstr ""
+"Выбрав \"Справа\" Вы зададите вывод бейджика справа, в противном случае "
+"слева ... "
+
+#: sc.admin.class.php:124
+msgid "Define badge position displacement"
+msgstr "Смещение позиции бейджика"
+
+#: sc.admin.class.php:124
+msgid ""
+"By default, badge is placed on the middle line of browser window. You can "
+"displace badge up (negative value) or down (positive value) relatively "
+"middle line by setting this value."
+msgstr ""
+"По умолчанию бейджик размещается на средней линии окна браузера. Вы можете "
+"задать смещение позиции бейджика вверх (отрицательное значение) или вниз "
+"(положительное значение) относительно средней линии экрана браузера. "
+"Значение задаётся в пикселах."
+
+#: sc.admin.class.php:125
+msgid "Localization of badge strings"
+msgstr "Локализация бейджика"
+
+#: sc.admin.class.php:125
+msgid "Localize"
+msgstr "Локализовывать"
+
+#: sc.admin.class.php:125
+msgid "Do not localize"
+msgstr "Не локализовывать"
+
+#: sc.admin.class.php:125
+msgid ""
+"If you don't want to display localized version of words \"reader(s)\" and "
+"\"friend(s)\", select \"Do not localize\". Also you can use filters "
+"<code>simple_counters_localization_facebook</code> and "
+"<code>simple_counters_localization_twitter</code> for defining your own "
+"localized versions of these words."
+msgstr ""
+"Если вы не хотите отображать локализованные версии слов \"reader(s)\" и "
+"\"friend(s)\", выберите \"Не локализовывать\". Также вы можете использовать "
+"фильтры <code>simple_counters_localization_facebook</code> и "
+"<code>simple_counters_localization_twitter</code> для определения ваших "
+"собственных версий локализации этих слов."
+
+#: sc.admin.class.php:127
+msgid "Select Theme"
+msgstr "Цветовая схема"
+
+#: sc.admin.class.php:127
+msgid "Cream"
+msgstr "Желтая"
+
+#: sc.admin.class.php:127
+msgid "Dark"
+msgstr "Тёмная"
+
+#: sc.admin.class.php:127
+msgid "Green"
+msgstr "Зелёная"
+
+#: sc.admin.class.php:127
+msgid "Light"
+msgstr "Светлая"
+
+#: sc.admin.class.php:127
+msgid "Red"
+msgstr "Красная"
+
+#: sc.admin.class.php:127
+msgid "Blue"
+msgstr "Синяя"
+
+#: sc.admin.class.php:127
+msgid "Custom (See below)"
+msgstr "Настраиваемая (см. ниже)"
+
+#: sc.admin.class.php:127
+msgid "Color theme selecting."
+msgstr "Выбор цветовой схемы."
+
+#: sc.admin.class.php:128
+msgid "Define tooltip font color"
+msgstr "Цвет шрифта"
+
+#: sc.admin.class.php:128
+msgid "This is font color of tooltip (six hex digits)."
+msgstr "Цвет шрифта подсказки (шесть шестнадцатиричных цифр)."
+
+#: sc.admin.class.php:128 sc.admin.class.php:130 sc.admin.class.php:131
+msgid "This parameter is useful only for tooltip custom theme."
+msgstr ""
+"Этот параметр имеет значение только при использовании темы подсказок "
+"\"Настраиваемая\"."
+
+#: sc.admin.class.php:130
+msgid "Define tooltip background color"
+msgstr "Цвет фона"
+
+#: sc.admin.class.php:130
+msgid "This is background color of tooltip (six hex digits)."
+msgstr "Цвет фона подсказки (шесть шестнадцатеричных цифр)."
+
+#: sc.admin.class.php:131
+msgid "Define tooltip border color"
+msgstr "Цвет окантовки"
+
+#: sc.admin.class.php:131
+msgid "This is color of tooltip border (six hex digits)."
+msgstr "Цвет окантовки подсказки (шесть шестнадцатиричных цифр)."
+
+#: sc.admin.class.php:132
+msgid "Define template-word style"
+msgstr "Стиль шаблонов"
+
+#: sc.admin.class.php:132
+msgid "bold"
+msgstr "жирный"
+
+#: sc.admin.class.php:132
+msgid "italic"
+msgstr "курсив"
+
+#: sc.admin.class.php:132
+msgid "Select template-words representation style for displaying in the hints."
+msgstr "Определите стиль представления шаблонов при показе в подсказках."
+
+#: sc.admin.class.php:133
+msgid "Define text for Facebook counter tooltip (friends)"
+msgstr "Текст подсказки Facebook (друзья)"
+
+#: sc.admin.class.php:133
+msgid "This is text for Facebook tooltip (friends display mode)."
+msgstr ""
+"Это текст который будет показан в подсказке Facebook (режим \"Друзья\")."
+
+#: sc.admin.class.php:133 sc.admin.class.php:134 sc.admin.class.php:137
+msgid ""
+"You can use template-word <strong>[blog_name]</strong> to display name of "
+"your blog, <strong>[fb_fullname]</strong> to display your Full Name on "
+"Facebook, <strong>[fb_name]</strong> to display your First Name on Facebook "
+"or <strong>[twitter_nick]</strong> to display your Twitter Nickname."
+msgstr ""
+"Вы можете использовать слово-шаблон <strong>[blog_name]</strong> для показа "
+"имени Вашего блога, <strong>[fb_fullname]</strong> для показа Вашего полного "
+"имени на Facebook,  <strong>[fb_name]</strong> для показа Вашего имени на "
+"Facebook или <strong>[twitter_nick]</strong> для показа Вашего ника на "
+"Twitter."
+
+#: sc.admin.class.php:134
+msgid "Define text for Facebook counter tooltip (site page fans)"
+msgstr "Текст подсказки Facebook (фаны)"
+
+#: sc.admin.class.php:134
+msgid "This is text for Facebook tooltip (fan display mode)."
+msgstr "Это текст который будет показан в подсказке Facebook (режим \"Фаны\")."
+
+#: sc.admin.class.php:135
+msgid "Define image for Facebook counter tooltip"
+msgstr "Иконка Facebook"
+
+#: sc.admin.class.php:135
+msgid ""
+"This is image for Facebook tooltip (Full URL). 40x40 pixels, transparent "
+"background PNG image recommended."
+msgstr ""
+"Иконка Facebook в подсказке (полный URL). Рекомендуется изображение PNG, "
+"40x40, прозрачный фон."
+
+#: sc.admin.class.php:136
+msgid "Define image source for Facebook counter tooltip"
+msgstr "Выбор источника для иконки Facebook"
+
+#: sc.admin.class.php:136 sc.admin.class.php:139
+msgid "User defined"
+msgstr "Заданное админом"
+
+#: sc.admin.class.php:136
+msgid "Facebook cover image"
+msgstr "Изображение c Facebook"
+
+#: sc.admin.class.php:136
+msgid ""
+"Selecting \"User defined\" will set user defined image for Facebook counter "
+"tooltip, \"Facebook cover image\" will set your Facebook cover image (square "
+"profile picture) as image for Facebook counter tooltip."
+msgstr ""
+"Выбрав \"Заданное админом\" Вы зададите вывод изображения определённого "
+"Вами, выбрав \"Изображение c Facebook\" Вы зададите вывод Вашего изображения "
+"с Facebook."
+
+#: sc.admin.class.php:137
+msgid "Define text for Twitter counter tooltip"
+msgstr "Текст подсказки Twitter"
+
+#: sc.admin.class.php:137
+msgid "This is text for Twitter tooltip."
+msgstr "Это текст который будет показан в подсказке Twitter."
+
+#: sc.admin.class.php:138
+msgid "Define image for Twitter counter tooltip"
+msgstr "Иконка Twitter"
+
+#: sc.admin.class.php:138
+msgid ""
+"This is image for Twitter tooltip (Full URL). 40x40 pixels, transparent "
+"background PNG image recommended."
+msgstr ""
+"Иконка Twitter в подсказке (полный URL). Рекомендуется изображение PNG, "
+"40x40, прозрачный фон."
+
+#: sc.admin.class.php:139
+msgid "Define image source for Twitter counter tooltip"
+msgstr "Выбор источника для иконки Twitter"
+
+#: sc.admin.class.php:139
+msgid "Twitter avatar"
+msgstr "Аватар Twitter"
+
+#: sc.admin.class.php:139
+msgid ""
+"Selecting \"User defined\" will set user defined image for Twitter counter "
+"tooltip, \"Twitter avatar\" will set your Twitter avatar as image for "
+"Twitter counter tooltip."
+msgstr ""
+"Выбрав \"Заданное админом\" Вы зададите вывод изображения определённого "
+"Вами, выбрав \"Аватар Twitter\" Вы зададите вывод Вашего аватара на Twitter."
+
+#: sc.admin.class.php:155
+msgid ""
+"You must define IDs for both accounts, Facebook and Twitter, for properly "
+"work of plugin."
+msgstr ""
+"Необходимо определить обе учётные записи, как для Facebook, так и для "
+"Twitter. В противном случае вывод бейджика будет заблокирован."
+
+#: sc.admin.class.php:159
+msgid "Use parameters below for customising Simple Counters badge style."
+msgstr "Используйте эти параметры для настройки стиля бейджика."
+
+#: sc.admin.class.php:163
+msgid "Use parameters below for customising output data format."
+msgstr "Используйте эти параметры для настройки выходных данных."
+
+#: sc.admin.class.php:167
+msgid "Use parameters below for customising Simple Counters tooltips."
+msgstr "Параметры настройки подсказок счётчиков."
+
+#: sc.admin.class.php:171
+msgid ""
+"Use parameters below for customising technical parameters of Simple Counters."
+msgstr "Технические параметры плагина."
+
+#: sc.admin.class.php:242
+msgid "Clear"
+msgstr "Очистить"
+
+#: sc.admin.class.php:305
+msgid "None"
+msgstr "Нет"
+
+#: sc.admin.class.php:501
+msgid "Simple Counters"
+msgstr "Просто счётчики"
+
+#: sc.admin.class.php:515
+msgid "Creating Facebook App"
+msgstr "Создание приложения Facebook"
+
+#: sc.admin.class.php:516
+msgid ""
+"All data of your account on Facebook are confidential and are guarded. For "
+"retrieving some part of data, this plugin must have gateway to your Facebook "
+"account. Such gateway is Facebook application which you can create on the "
+"Facebook site of developers."
+msgstr ""
+"Все данные вашего аккаунта на Facebook, являются конфиденциальными и "
+"охраняются. Для получения некоторой части данных, этот плагин должен иметь "
+"некий шлюз в Вашу учетную запись Facebook. Такой шлюз - Facebook приложение, "
+"которое можно создать на сайте разработчиков Facebook."
+
+#: sc.admin.class.php:517
+#, php-format
+msgid ""
+"If you don't already have an app for this website, go to %shttps://"
+"developers.facebook.com/apps%s and click the \"Create New App\" button. "
+"You'll see a dialog like the one below. Fill this in and click \"Continue\"."
+msgstr ""
+"Если у Вас ещё нет Facebook приложения для этого сайта, перейдите по ссылке "
+"%shttps://developers.facebook.com/apps%s и кликните на кнопке \"Create New "
+"App\". Вы увидите диалог, такой же как показанный ниже. Заполните "
+"необходимые поля и кликните на кнопке \"Continue\"."
+
+#: sc.admin.class.php:519
+#, php-format
+msgid ""
+"Next, set up your app so that it looks like the settings below. Make sure "
+"you set your app's icon and image, too. If you already have an app and "
+"skipped previous step, you can view your app settings by going to %shttps://"
+"developers.facebook.com/apps%s."
+msgstr ""
+"Далее, настройте приложение таким же образом, как это выглядит на "
+"изображении, приведённом ниже. Убедитесь, что вы установили значок "
+"приложения, а так же его изображение. Если у вас уже есть приложение, и Вы "
+"пропустили предыдущий шаг, вы можете посмотреть настройки приложения, "
+"перейдя по ссылке: %shttps://developers.facebook.com/apps%s."
+
+#: sc.admin.class.php:521
+msgid ""
+"Here are for some recommendations for filling this form out, based on where "
+"this plugin is installed."
+msgstr ""
+"Вот некоторые рекомендации для заполнения формы, основанные на том, где "
+"установлен плагин."
+
+#: sc.admin.class.php:522
+msgid "and"
+msgstr "и"
+
+#: sc.admin.class.php:523
+msgid "Plugin Facebook Settings"
+msgstr "Параметры плагина для Facebook"
+
+#: sc.admin.class.php:524
+msgid "Plugin's parameters for Facebook are configuring in two steps:"
+msgstr "Параметры плагина для Facebook конфигурируются в два этапа:"
+
+#: sc.admin.class.php:525
+msgid "Step One"
+msgstr "Этап первый"
+
+#: sc.admin.class.php:526
+msgid ""
+"Fill up fields \"Facebook App Id\" and \"Facebook App Secret\" (only these "
+"fields) using App Id and App Secret of created Facebook app and save "
+"plugin's parameters."
+msgstr ""
+"Заполните поля \"Facebook App Id\" и \"Facebook App Secret\" (только эти "
+"поля), используя App Id и App Secret созданного Facebook приложения, и "
+"сохраните параметры плагина."
+
+#: sc.admin.class.php:527
+msgid "Step Two"
+msgstr "Этап второй"
+
+#: sc.admin.class.php:528
+msgid ""
+"If the data in the previous step was entered correctly, the plugin will "
+"detects your full name. If it's your name, save again plugin's settings, for "
+"complete the connection settings with Facebook."
+msgstr ""
+"Если данные на предыдущем этапе были введены правильно, плагин определит "
+"Ваше полное имя из Вашего аккаунта на Facebook. Если это Ваше имя, сохраните "
+"еще раз настройки плагина для завершения настройки соединения с Facebook."
+
+#: sc.admin.class.php:529
+msgid "Important"
+msgstr "Важно"
+
+#: sc.admin.class.php:530
+msgid ""
+"If you have several accounts on Facebook, you must to be logged in to the "
+"Facebook account that contain the App to enable communication with this "
+"site. Or you must be logged out from any Facebook accounts."
+msgstr ""
+"Если у Вас есть несколько аккаунтов на Facebook, Вы должны быть подключены к "
+"аккаунту Facebook в котором было создано приложение для обеспечения обмена "
+"данными с этим сайтом. Или Вы должны выйти из всех аккаунтов Facebook."
+
+#: sc.admin.class.php:538
+msgid "Twitter Settings"
+msgstr "Параметры Twitter"
+
+#: sc.admin.class.php:539
+msgid "Just fill \"Twitter ID\" field with your Twitter nickname."
+msgstr "Просто введите Ваш ник на Twitter в поле \"Учётная запись Twitter\"."
+
+#: sc.admin.class.php:550
+msgid "Simple Counters Settings"
+msgstr "Параметры простых счётчиков"
+
+#: sc.admin.class.php:564
+msgid "System Info"
+msgstr "Системная информация"
+
+#: sc.admin.class.php:568
+msgid "Wordpress Version"
+msgstr "Версия Wordpress"
+
+#: sc.admin.class.php:569
+msgid "Plugin Version"
+msgstr "Версия плагина"
+
+#: sc.admin.class.php:570
+msgid "PHP Version"
+msgstr "Версия PHP"
+
+#: sc.admin.class.php:571
+msgid "Memory Limit"
+msgstr "Лимит памяти"
+
+#: sc.admin.class.php:575
+msgid "Note! If you have detected a bug, include this data to bug report."
+msgstr ""
+"Обратите внимание! Если вы обнаружили ошибку, не забудьте включить эти "
+"данные в отчет об ошибке."
+
+#: sc.admin.class.php:580
+msgid "Resources"
+msgstr "Ресурсы"
+
+#: sc.admin.class.php:583
+msgid "Wordpress Plugin Page"
+msgstr "Страница плагина на Wordpress"
+
+#: sc.admin.class.php:584
+msgid "Author Plugin Page"
+msgstr "Страница плагина"
+
+#: sc.admin.class.php:585
+msgid "Support Forum"
+msgstr "Форум поддержки"
+
+#: sc.admin.class.php:586
+msgid "Author's Blog"
+msgstr "Блог автора"
+
+#: sc.admin.class.php:591
+msgid "Donations"
+msgstr "Пожертвования"
+
+#: sc.admin.class.php:595
+#, php-format
+msgid ""
+"If you have found this plugin useful, please consider making a %s to help "
+"support future development. Your support will be much appreciated. Thank you!"
+msgstr ""
+"Если Вы сочли этот плагин полезным, пожалуйста, изыщите возможность сделать "
+"%s, чтобы поддержать дальнейшие работы по разработке плагина. Ваша поддержка "
+"будет оценена по достоинству. Спасибо! "
+
+#: sc.admin.class.php:596 sc.admin.class.php:603
+msgid "Donate Now!"
+msgstr "Пожертвовать!"
+
+#: sc.admin.class.php:596
+msgid "donation"
+msgstr "пожертвование"
+
+#: sc.admin.class.php:600 sc.admin.class.php:613
+msgid "Donate via"
+msgstr "Пожертвовать через"
+
+#: sc.admin.class.php:608
+#, php-format
+msgid ""
+"Warning! The default value of donation is %s. Don't worry! This is not my "
+"appetite, this is default value defined by Payoneer service."
+msgstr ""
+"Внимание! Значение по умолчанию для пожертвования составляет %s. Не "
+"волнуйтесь! Это не мой аппетит, это - значение по умолчанию, определенное "
+"службой Payoneer."
+
+#: sc.admin.class.php:608
+msgid " You can change it to any value you want!"
+msgstr " Вы можете изменить его на любое значение, которое посчитаете нужным!"
+
+#: sc.admin.class.php:625
+msgid "Another Plugins"
+msgstr "Другие плагины"
+
+#: sc.admin.class.php:627
+msgid "Another plugins from minimus"
+msgstr "Другие плагины от minimus'а"
+
+#: sc.admin.class.php:629
+msgid ""
+"Advertisment rotation system with a flexible logic of displaying "
+"advertisements. "
+msgstr "Ротатор рекламных объявлений, реализующий гибкую логику ротации."
+
+#: sc.admin.class.php:630
+msgid "Highlights any portion of text as text in the colored boxes."
+msgstr "Подсветка любой части текста в виде текста в цветной рамке."
+
+#: sc.admin.class.php:631
+msgid "This plugin is WordPress shell for FloatBox library by Byron McGregor."
+msgstr "Wordpress оболочка для плагина FloatBox от Байрона МакГрегора."
+
+#: sc.admin.class.php:632
+msgid "Adds copyright notice in the end of each post of your blog. "
+msgstr ""
+"Добавляет строку уведомления об авторском праве в конец каждой статьи блога."
+
+#: sc.admin.class.php:641
+msgid "General"
+msgstr "Основные"
+
+#: sc.admin.class.php:642
+msgid "Badge"
+msgstr "Бейджик"
+
+#: sc.admin.class.php:643
+msgid "Tooltips"
+msgstr "Подсказки"
+
+#: sc.class.php:140 sc.class.php:153
+msgid "Be my friend"
+msgstr "Будьте моим другом"
+
+#: sc.class.php:140 sc.class.php:142 sc.class.php:152 sc.class.php:153
+msgid ""
+"on Facebook to receive breaking news as well as receive other site updates!"
+msgstr "на Facebook для получения последних новостей и изменений сайта!"
+
+#: sc.class.php:142 sc.class.php:152
+msgid "Be fan of"
+msgstr "Будьте поклонником"
+
+#: sc.class.php:144
+msgid "Share and discover what is happening right now, at the"
+msgstr ""
+"Совместно используйте и узнавайте то, что происходит прямо сейчас на сайте"
+
+#: sc.class.php:144
+msgid "Follow Me on Twitter!"
+msgstr "Присоединяйтесь ко мне на Twitter!"
+
+#: sc.class.php:157 sc.class.php:242 sc.class.php:555
+msgid "friend"
+msgid_plural "friends"
+msgstr[0] "Друг"
+msgstr[1] "Друга"
+msgstr[2] "Друзей"
+
+#: sc.class.php:158 sc.class.php:244 sc.class.php:556
+msgid "follower"
+msgid_plural "followers"
+msgstr[0] "спутник"
+msgstr[1] "спутника"
+msgstr[2] "спутников"
+
+#: sc.class.php:243 sc.class.php:555
+msgid "fan"
+msgid_plural "fans"
+msgstr[0] "фан"
+msgstr[1] "фана"
+msgstr[2] "фанов"
+
+#~ msgid "reader"
+#~ msgid_plural "readers"
+#~ msgstr[0] "читатель"
+#~ msgstr[1] "читателя"
+#~ msgstr[2] "читателей"
+
+#~ msgid "Subscribe to"
+#~ msgstr "Подпишитесь на рассылку сайта"
+
+#~ msgid "Clear Facebook User ID"
+#~ msgstr "Удалить ID пользователя"
+
+#~ msgid "Define image for FeedBurner counter"
+#~ msgstr "Иконка счётчика FeedBurner"
+
+#~ msgid ""
+#~ "This is image for FeedBurner badge button (Full URL). 50x50 pixels, "
+#~ "transparent background PNG image recommended."
+#~ msgstr ""
+#~ "Иконка для области вывода счётчика FeedBurner (полный URL). Рекомендуется "
+#~ "изображение PNG, 50x50 пиксел, прозрачный фон. Внимание! Изображение "
+#~ "ЛЮБОГО размера будет выводиться в размере 50х50! "
+
+#~ msgid "Define text for FeedBurner counter tooltip"
+#~ msgstr "Текст подсказки FeedBurner"
+
+#~ msgid "This is text for FeedBurner tooltip."
+#~ msgstr "Это текст который будет показан в подсказке FeedBurner."
+
+#~ msgid "Define image for FeedBurner counter tooltip"
+#~ msgstr "Иконка FeedBurner"
+
+#~ msgid ""
+#~ "This is image for FeedBurner tooltip (Full URL). 40x40 pixels, "
+#~ "transparent background PNG image recommended."
+#~ msgstr ""
+#~ "Иконка FeedBurner в подсказке (полный URL). Рекомендуется изображение "
+#~ "PNG, 40x40, прозрачный фон."
+
+#~ msgid "FeedBurner"
+#~ msgstr "FeedBurner"
+
+#~ msgid "Data request to FeedBurner server will be run on client side."
+#~ msgstr ""
+#~ "Запрос данных к серверу FeedBurner будет выполнен на стороне клиента."
+
+#~ msgid "Output Data Settings"
+#~ msgstr "Параметры выходных данных"
+
+#~ msgid "Define your FeedBurner ID"
+#~ msgstr "Учётная запись FeedBurner"
+
+#~ msgid ""
+#~ "This is the URI of the feed (same as <strong>http://feedproxy.google.com/"
+#~ "[feeduri]</strong>). Enter only <strong>[feeduri]</strong>."
+#~ msgstr ""
+#~ "Это URI фида (такой как <strong>http://feedproxy.google.com/[feeduri]</"
+#~ "strong>). Вводить необходимо только <strong>[feeduri]</strong>."
+
+#~ msgid ""
+#~ "You must enable <strong>Awareness API</strong> in your FeedBurner account "
+#~ "(Publicize tab)."
+#~ msgstr ""
+#~ "Необходимо включить поддержку <strong>Awareness API</strong> с помощью "
+#~ "панели управления в вашей учётной записи FeedBurner (закладка Publicize)."
+
+#~ msgid "Define FeedBurner Output Page Data Format"
+#~ msgstr "Формат данных страницы FeedBurner"
+
+#~ msgid "RSS XML"
+#~ msgstr "Формат RSS XML"
+
+#~ msgid ""
+#~ "Selecting \"Default\" will set output page data format to default "
+#~ "FeedBurner Subscription page, selecting \"XML\" will set output page data "
+#~ "format to RSS XML Data Format. In other words, if \"Default\" when user "
+#~ "clicks FeedBurner icon he opens Default FeedBurner Subscription Page, in "
+#~ "other case XML RSS Feed."
+#~ msgstr ""
+#~ "Этот параметр задаёт формат данных открываемой страницы FeedBurner. "
+#~ "Другими словами, если выбрана стандартная страница подписки, при клике "
+#~ "пользователя на иконке FeedBurner, откроется стандартная страница "
+#~ "подписки FeedBurner, в противном случае откроется файл потока RSS."
+
+#~ msgid "Define tooltip font size"
+#~ msgstr "Размер шрифта"
+
+#~ msgid "This is font size of tooltip."
+#~ msgstr "Размер шрифта подсказки."
+
+#~ msgid "Simple Counters Settings Updated."
+#~ msgstr "Параметры простых счётчиков сохранены."
+
+#~ msgid "Plugin version"
+#~ msgstr "Версия плагина"
